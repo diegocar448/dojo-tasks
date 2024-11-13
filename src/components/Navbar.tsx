@@ -6,13 +6,7 @@ export default function Navbar() {
 
     <Flex as="nav" p="10px" alignItems="center">
       <Heading as="h1">Di Tasks</Heading>
-      <Spacer />
-
-      <HStack spacing="20px">
-        <Box bg="gray.200" color="black" p="10px">M</Box>
-        <Text>diego@dreams.dev</Text>
-        <Button bg="purple" color="white">Logout</Button>
-      </HStack>      
+      <Spacer />           
     </Flex>
   )
 }

@@ -2,8 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  reactStrictMode: true,
-  optimizePackageImports: ["@chakra-ui/react"],
+  reactStrictMode: true,  
   experimental: {
     optimizePackageImports: ["@chakra-ui/react"],
   },
